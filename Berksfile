@@ -4,7 +4,7 @@ metadata
 
 cookbook 'java'
 cookbook 'kagent', github: 'karamelchef/kagent-chef'
-cookbook 'hadoop', github: 'hopshadoop/apache-hadoop-chef'
+cookbook 'hadoop', github: 'geotzingert/apache-hadoop-chef'
 cookbook 'ark'
 cookbook 'ulimit'
 
