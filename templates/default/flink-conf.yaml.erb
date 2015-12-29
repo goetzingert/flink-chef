@@ -31,7 +31,7 @@ taskmanager.heap.mb: <%= node[:flink][:taskmanager][:heap_mbs] %>
 
 taskmanager.numberOfTaskSlots: <%= node[:flink][:taskmanager][:num_taskslots] %>
 
-parallelization.default: <%= node[:flink][:parallelization][:degree] %>
+parallelism.default: <%= node[:flink][:parallelization][:degree] %>
 
 #==============================================================================
 # Web Frontend
